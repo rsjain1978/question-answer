@@ -1,0 +1,9 @@
+conda create -n qna python=3.7.3 anaconda
+
+conda install pytorch==1.2.0 torchvision cpuonly -c pytorch
+pip install cdqa
+#pip install transformers
+
+git clone https://github.com/cdqa-suite/cdQA-annotator
+cd cdQA-annotator
+npm install
